@@ -1,0 +1,66 @@
+.root{
+    -fx-background-color:
+            linear-gradient(#fffcf6 0%, #fbcbbf 10%, #fbbeb1 50%, #fb7977 51%, #d5faff 100%);
+    -fx-text-fill: black;
+}
+Label{
+    -fx-font-weight: bold;
+    -fx-font-family: "David";
+    -fx-text-fill: black;
+    -fx-font-size: 16px;
+}
+
+Text{
+    -fx-font-family: "David";
+    -fx-text-fill: black;
+}
+Button {
+    -fx-background-color:
+            linear-gradient(#af949a, #ff8b87);
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+}
+
+.menu-item
+{
+    -fx-background-color:
+            linear-gradient(#af949a, #ff8b87);
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: black;
+    -fx-font-size: 16px;
+}
+
+Button:hover{
+    -fx-background-color:
+            linear-gradient(#af949a, #ff8b87);
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: black;
+    -fx-font-size: 16px;
+}
+
+#lion-default {
+    -fx-background-color:
+            linear-gradient(#af949a, #ff8b87);
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: black;
+    -fx-font-size: 16px;
+}
+#lion {
+    -fx-background-color:
+            linear-gradient(#af949a, #ff8b87);
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: black;
+    -fx-font-size: 16px;
+}
